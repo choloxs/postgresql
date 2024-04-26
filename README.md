@@ -7,7 +7,7 @@
 6. Insert SD card in Raspberry Pi and turn it on.
 7. In your router, find the IP address of the Raspberry Pi.
 8. Using Command prompt, remotely log in to your Ubuntu server using initial SSH credentials and Raspberry Pi IP address. Make sure that the computer you are using and the Raspberry Pi has the same network. In terminal you can type this:
-   >> ssh username@Raspberry Pi IP.
+   > ssh username@Raspberry Pi IP.
 9. After logging-in update and upgrade your server.
    sudo apt-get update
    sudo apt-get upgrade
